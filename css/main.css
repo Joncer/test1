@@ -1,0 +1,412 @@
+/*
+ *  wangchao
+ */
+.section0 img{min-width:100%;width:100%;}
+.section0 {background:#000;width:100%;height:100%;}
+
+.section0 .bubble{position:relative;z-index:1;width:100%;height:100%;}
+.section0 .box,.section0 .desc{position:absolute;width:42%;left:50%;margin-left:-20%;}
+.section0 .box{height:35%;top:2%;z-index: -1;}
+@media screen and (max-height:800px){/*屏幕高度小于800px*/
+    .section0 .box{width:38%;height:34%;margin-left:-19%; }
+    /*.section0 .high_light{width:70%;height:70%;margin-left:-35%; }*/
+}
+.section0 .desc{padding-top:20px;height:30%;bottom:2%;}
+.section0 .high_light{width:90%;height:90%;position:absolute;z-index:0;left:50%;top:50%;margin-left:-45%;margin-top:-23%;}
+.section0 .zoom_bubble{filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);-webkit-filter: blur(10px);-moz-filter:blur(10px);-ms-filter:blur(10px);filter:blur(10px);-webkit-animation-duration: 2s;-moz-animation-duration: 2s;-o-animation-duration: 2s;-animation-duration:2s;}
+.section0 .fade_box{animation-delay:1s;-webkit-animation-delay:1s;-moz-animation-delay:1s;-o-animation-delay:1s;-webkit-animation-duration: 4s;-moz-animation-duration: 4s;-o-animation-duration: 4s;-animation-duration:4s;}
+.section0 .logo,.section0 .line,.section0 .sc1_txt1,.section0 .sc1_txt2,.section0 .btn{margin:0 auto;width:40%;text-align: center;}
+.section0 .logo,.section0 .sc1_txt1,.section0 .sc1_txt2,.section0 .line_img{padding-bottom:3%;}
+.section0 .logo{width:22%;}
+.section0 .line_img{width:5%;height:1px; margin:0 auto;}
+.section0 .purchase{width:50%;height:39px;font-size:18px;color:#999999;border:1px solid #6b6b6b;font-family: "microsoft yahei", arial;background:#232323;border-radius:20px;}
+.section0 .sc1_txt1 h6{font-size: 22px;font-weight: normal;}
+/*陈雨昕start*/
+.section1 .wai{width: 100%;height: 900px;}
+.section1 .big{width: 1000px;height: 100%;margin: 0 auto;position:relative;border: 1px solid white}
+.section1 .top_1{width:1000px;height: 44px;margin-top:98px;font-size:44px;}
+.section1 .top_1_img1{margin-left: 398px}
+.section1 .top_1_img2{margin-left: 20px}
+.section1 .top_2{width: 1000px;height: 43px;margin-top: 30px;margin-bottom: 57px;}
+.section1 .top_2_img1{margin-left: 323px}
+.section1 .top_2_img2{margin-left: 6px ;margin-right: 7px;}
+.section1 .top_3{width: 1000px;height: 27px;overflow: hidden}
+.section1.top_3_img1{float: left}
+.section1 .top_3_img2{float: right}
+.section1 .top_4{width: 1000px;height: 294px;position:relative;overflow: hidden;cursor: url('../images/pointer.png'),auto;}
+.section1 .tip-bottom{margin-top: 5px}
+.section1 .top_5{width: 1000px;height: 43px;margin-top:53px;margin-bottom:50px;text-align:center;font-size: 17px;color: #6f6f6f; }
+.section1 .top_6{width: 1000px;height: 18px;text-align:center;font-size: 17px;color: #6f6f6f;}
+.section1 .action{width: 999px;height: 296px;position: absolute;top: 0px;left:0;}
+.section1 .wang{position: absolute;left:-40px;top: 0;}
+/*陈雨昕end*/
+
+
+
+
+.section2{background: url("../images/benpao.jpg") no-repeat ;width:1680px;height: 900px;position: relative}
+.section2 .p1{font-size: 36px;color: white;left:50%;top: 256px;position: absolute;margin-left: 0px}
+.section2 .p2{font-size: 42px;color: white;left:50%;top: 298px;position: absolute;margin-left: -80px}
+.section2 .p3{font-size: 16px;color: white;left:50%;top: 366px;position: absolute;margin-left: -228px}
+.section2 .p4{font-size: 16px;color: white;left:50%;top: 388px;position: absolute;margin-left: -210px}
+
+
+.section3 .container5{
+    background: url(../images/wuweibg.png);
+    width: 1680px;
+    height: 100%;
+    position: relative;
+}
+.section3 .p1{
+    position: absolute;
+    top: 582px;
+    left:50%;
+    margin-left: -75px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+
+}
+.section3 .p2{
+    position: absolute;
+    width: 304px;
+    margin-left: -152px;
+    left: 50%;
+    top: 638px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+
+/* start of lihuan css */
+.section4{width: 100%;height:1250px;}
+.section4 .content{height:900px;}
+.section4 .header{text-align: center; height:30%; background: #ffffff;}
+.section4 .sound_top{display:inline-block; _display: inline; _zoom: 1;
+            padding-top: 120px; padding-bottom: 118px; width: 413px; height: 114px; background: url("../images/sound_img.gif") no-repeat center center;}
+body{
+    position: relative;
+    overflow: hidden;
+}
+.outter_div{
+    /*border: 1px solid red;*/
+    width: 100%;
+    min-width: 1000px;
+    height: 100%;
+    min-height: 600px;
+    max-height: 900px;
+    overflow: hidden;
+    position: relative;
+}
+
+#left_div{
+
+    /*border: 1px solid black;*/
+    width:70%;
+    height:200%;
+    transform:rotate(18deg);
+    -ms-transform:rotate(18deg); /* Internet Explorer */
+    -moz-transform:rotate(18deg);  Firefox 
+    -webkit-transform:rotate(18deg); /* Safari 和 Chrome */
+    -o-transform:rotate(18deg); /* Opera */
+    background: url(../images/test_bg.gif) no-repeat 125px -410px;
+    position: absolute;
+    left:-32%;
+    top: -50%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#right_div{
+
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url(../images/bg_red_img.jpg) 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #ccc;
+    z-index: 0;
+}
+.content_div{
+    /*border: 1px solid red;*/
+    position: relative;
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    z-index: 2;
+}
+.s4_float_div{
+    /*border: 1px solid black;*/
+    position: absolute;
+    width: 35%;
+    top: 114px;
+    left: 400px;
+    visibility: hidden;
+}
+.s4_float_div img{
+    visibility: visible;
+}
+.s4_top_img{
+    /*border: 1px solid red;*/
+    width: 100%;
+}
+.s4_middle_img{
+    /*border: 1px solid blue;*/
+    width: 90%;
+}
+.s4_bottom_img{
+    /*border: 1px solid black;*/
+    width: 90%;
+}
+#top_div{
+    background-color: red;
+    z-index: 4;
+    top: 23%;
+    left: 31%;
+    /*top: 100px;
+    left: 300px;*/
+}
+#middle_div{
+
+    background-color: green;
+    z-index: 3;
+    top: 29%;
+    left: 32%;
+    
+}
+#bottom_div{
+
+    background-color: blue;
+    z-index: 2;
+    top: 26%;
+    left: 33%;
+    /*top: 120px;
+    left: 320px;*/
+}
+#s4_left_note{
+    position: absolute;
+    width: 26%;
+    z-index: 5;
+    left: 10%;
+    top: 50%;
+    opacity: 0;
+}
+#s4_right_note{
+    position: absolute;
+    width: 33%;
+    z-index: 5;
+    right: 19%;
+    top: 65%;
+    opacity: 0;
+}
+/* end of lihuan css */
+
+
+/*董兵 第7屏 start*/
+
+
+
+.section5 .pages{  width: 100%;  min-width: 1000px;  }
+.section5 .pages img{  vertical-align: middle;  }
+.section5 .first{  width: 100%;  height: 350px;  }
+.section5 .second{  width: 100%;  height: 900px;  background: url("../images/08_background.jpg") #f2edf2 center;  }
+.section5 .first_content{  width: 350px;  margin: 0 auto;  padding-top: 117px;  text-align: center;  }
+.section5 #devide{  margin-left: 18px;  }
+.section5 #speech{  margin-left: 20px;  }
+.section5 #adds{ margin-left: 9px;  }
+.section5 .first_2{ margin-top: 20px;  }
+.section5 #second_text{  height: 203px;  width: 393px;  top: 101px;  left: 339px;  }
+.section5 #top1{  color: #333;  font-size: 36px;  text-align: left;  top: 0;  left: -23px;  }
+.section5 #top2_animate{  width: 287px;  height: 73px;  background: url("../images/08_red_back.png") no-repeat;  top: 65px;  left: 0;  }
+.section5 #top3{  font-size: 16px;  color: #5b5b5b;  top: 163px;  }
+.section5 #top2_animate img{  width: 177px;  height: 45px;position: absolute;  top: 13px;  left: 55px;  }
+@keyframes section5_change {
+    0%{
+        width: 177px;
+        height: 45px;
+    }
+    /*10%{*/
+    /*width: 177px;*/
+    /*height: 45px;*/
+    /*}*/
+    50%{
+        width: 55px;
+        height: 45px;
+        left: 116px;
+    }
+    100%{
+        width: 177px;
+        height: 45px;
+    }
+}
+@keyframes section5_display {
+    0%{
+        width: 177px;
+        height: 45px;
+        opacity: 1;
+    }
+    50%{
+        width: 55px;
+        height: 45px;
+        opacity:0;
+        left: 116px;
+    }
+    100%{
+        width: 177px;
+        height: 45px;
+        opacity: 1;
+    }
+}
+.section5 #line1,.section5 #line2{animation: section5_change 0.5s linear;  }
+.section5 #line3,.section5 #line4{animation: section5_display 0.5s linear;  }
+@keyframes section5_title_appear{
+    from{
+        opacity: 0;
+        top: 12px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}
+.section5 #top1{animation: section5_title_appear 1s linear;}
+
+/* 董兵 第七屏 section6 start */
+.section6 .play{height: 1250px;width: 100%;min-width: 1000px;
+}
+.section6 .playTop{
+    width: 100%;
+    min-width: 1000px;
+    height:350px ;
+    background: #fff;
+    /*z-index: 1;*/
+}
+.section6 .playCen{
+    width: 1000px;
+    height:230px ;
+    margin:0 auto;
+    padding-top:120px; 
+}
+.section6 .playCen h1{color:#333;font-size: 48px;}
+.section6 .playCen .playFont{color:#c4c4c4;}
+.section6 .playCen .link{margin:0px 15px; }
+.section6 .playCen .playImg{
+    width: 117px;
+    height: 40px;
+    padding-left: 73px;
+    padding-top: 5px;
+    font-size: 24px;
+    color: #e9b474;
+    background:url(../images/db_play.png) no-repeat;
+    margin-left:-78px;
+    margin-right: 8px;
+}
+.section6 .playCen p{
+    font-size: 32px;
+    color: #000;
+}
+.section6 .playCen{
+    width: 364px;
+    /*display:inline-block;  */
+}
+.section6 .playBottom{
+    width:100%;
+    min-width: 1000px;
+    height:900px;
+    background: url(../images/db_blackBg.png) no-repeat;
+}
+.section6 .game{
+    width:1000px;
+    height:900px;
+    margin:0 auto;
+}
+.section6 .game p{
+    color: #a3a3a3;
+    font-size: 18px;
+    left:50%;
+    bottom: 0px;
+    width: 540px;
+    margin-left:-270px;
+}
+.section6 .game .tank{
+    left:-67px;
+    top:278px;
+}
+.section6 .game .mush{
+    left:28px;
+    bottom:218px;
+}
+.section6 .game .dou{
+    left:193px;
+    bottom:200px;
+}
+.section6 .game .fish{
+    left:315px;
+    top:131px;
+}
+.section6 .game .boy{
+    right:100px;
+    bottom:98px;
+}
+.section6 .game .mary{
+    right:-80px;
+    top:203px;
+}
+.section6 .game .bee{
+    right:-120px;
+    top:385px;
+}
+/* 董兵 第七屏 section6 end */
+
+
+.section7 {min-width: 1000px;  }
+.section7 p{font-size: 16px; line-height: 36px;}
+.section7 .part7-header{text-align: center; margin-top: 90px;}
+.section7 .part07-logo{text-align: center;}
+.section7 .part-07h1{font-size: 20px; margin-left: -40px; line-height: 34px;}
+.section7 .red-line{height: 14px; width: 34px; border-bottom:1px solid #e30920; margin-left: 467px;}
+.section7 .packout { margin-right: 50px;}
+.section7 .s1 { margin-right: 90px;}
+.section7 .packout p{padding-left: 128px;}
+.section7 .s1 p{padding-left: 92px;}
+.section7 .info p{padding-left: 100px;}
+.section7 .part7-main{margin-top: 28px;}
+.section7 .part7-main2{margin-top: 24px;}
+.section7 .part7-main2 div{margin-right: 62px;}
+
+.section7 .part7-info{margin-top: 70px;margin-left: 70px; color: #6f6f6f; margin-bottom: 180px;}
+.section7 .info img{padding-bottom: 25px;}
+.section7 .info-r{margin-right: 70px; margin-top: 70px;}
+.section7 .part7-main2 .packin p{padding-left: 128px;}
+.section7 .part7-main2 .control p{padding-left: 32px;}
+.section7 .part7-main2 .hdmi p{padding-left: 46px;}
+.section7 .part7-info h1{font-size: 24px; color: #6f6f6f;}
+.section7 .part7-main2 .powerline img{margin-bottom: 18px;}
+.section7 .part7-main2 .powerline p{padding-left: 69px; }
+.section7 .info-center{margin-top: 12px; }
+.section7 .info-center li{ width: 375px; height: 28px; line-height: 28px;}
+.section7 .info-center .qq{color: #bdbdbd; }
+.section7 .part7-info a{display: block; width: 216px; height: 48px; border: 1px solid #cbcbcb;border-radius: 26px;
+text-align: center; line-height: 48px;font-size: 16px;}
+.section7 .part7-info .price{color: #fc6f78;margin: 20px 0;}
+.section7 .part7-info .price .numm{font-size: 36px; margin-right: 10px;}
+/*xuxin   7*/
+
+
+
+/*
+zhimin
+ */
+.footer{width:100%;height:244px;padding-top:42px;color:#939393;background:url(../images/bg1.png) repeat-x 0 0;}
+.footer .container{width:948px;margin:0 auto;}
+.footer .area_one li{width:38px;height:30px;line-height:30px;padding-left:40px;padding-right:40px;float:left;font-size:18px;color:#939393;text-align:center;background:url(../images/border.png) no-repeat left 6px;}
+.footer li.area_li{width:90px;padding:0;background:none;text-align:left;}
+.footer li.area_special{padding-left:20px;padding-right:20px;width:86px;}
+.footer div.area_two{margin-top:38px;margin-right:50px;}
+.footer div.area_two .l li{margin-bottom:10px;color:#939393;}
+.footer ul.l span{margin-right:15px;}
+.footer .r_text{margin-right:13px;}
